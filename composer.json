@@ -1,0 +1,8 @@
+{
+    "name": "teresappcom/public_html",
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "guzzlehttp/guzzle": "^7.10",
+        "minishlink/web-push": "^9.0"
+    }
+}

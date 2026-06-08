@@ -1,0 +1,64 @@
+# Dependencias
+vendor/
+node_modules/
+
+# Uploads / arquivos de usuario
+uploads/
+
+# Backups / migracoes / pacotes
+_backup*/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+*.backup
+*.old
+*_backup_*
+*.sql
+*.dump
+
+# Logs
+error_log
+*.log
+
+# Composer local
+composer.phar
+
+# Ambiente / configs sensiveis
+.env
+.env.*
+!.env.example
+
+# IDE / sistema
+.DS_Store
+.idea/
+.vscode/
+
+# Build/cache
+build/
+dist/
+.cache/
+tmp/
+temp/
+
+# Backups com sufixo
+*.bak_*
+*.bak*
+*.orig
+*.save
+
+# Arquivos de teste/debug locais
+teste-*.php
+testar-*.php
+teste_*.php
+debug*.php
+
+# Arquivos sensiveis/servidor local
+.user.ini
+php.ini
+
+# Well-known local/temporario
+.well-known/

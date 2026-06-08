@@ -1,0 +1,41 @@
+{
+  "id": "/index.php?source=pwa",
+  "name": "Teresa Surita",
+  "short_name": "Teresa Surita",
+  "description": "Rede Social da Teresa Surita",
+  "start_url": "/index.php?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#38c3be",
+  "theme_color": "#38c3be",
+  "prefer_related_applications": false,
+  "lang": "pt-BR",
+  "categories": ["social"],
+  "icons": [
+    {
+      "src": "/assets/icons/launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/launchericon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/launchericon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /i/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9_-]+)/?$ index.php?codigo=$1 [L,QSA]
